@@ -1,7 +1,14 @@
 // ==================================================
 // DEFINE FUNCTION(S)
 // ==================================================
-function calc() {
+function calc(command, num1, num2) {
+   function sum(num1, num2) {
+    return num1 + num2;
+   }
+
+   switch (command) {
+     case 'add': return sum(num1, num2);
+   }
 
 }
 
