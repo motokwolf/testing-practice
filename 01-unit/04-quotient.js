@@ -1,8 +1,8 @@
 // ==================================================
 // DEFINE FUNCTION(S)
 // ==================================================
-function quotient() {
-
+function quotient(num1, num2) {
+  return num1 / num2;
 }
 
 // ==================================================
@@ -20,6 +20,8 @@ try {
   // Test Case 2
   // --------------------------------------------------
   // It should return the text 'ERROR' when the second number is 0.
+  var result = quotient(2, 0);
+  if (num2 = 0) throw new Error('Expected quotient(2, 0) to be ERROR. Received: ' + result);
 
   // --------------------------------------------------
   // Test Case 3
